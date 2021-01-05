@@ -19,8 +19,12 @@ class Kernel extends HttpKernel
         \Fruitcake\Cors\HandleCors::class,
         \App\Http\Middleware\PreventRequestsDuringMaintenance::class,
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
+        //added StartSession (below)
+        \Illuminate\Session\Middleware\StartSession::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+        //added UserAuth (below)
+        \App\Http\Middleware\UserAuth::class
     ];
 
     /**
