@@ -46,5 +46,8 @@
     .trending-name{
         text-align: center;
     }
+    .detail-image{
+        height: 200px;
+    }
 </style>
 </html>
