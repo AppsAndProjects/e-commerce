@@ -52,5 +52,10 @@
     .search-box{
         width: 500px !important;
     }
+    .cart-list-divider{
+        border-bottom: solid 1px #cccccc;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
 </style>
 </html>
